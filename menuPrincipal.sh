@@ -4,7 +4,7 @@ escolha=1
 
 clear
 
-while [ $escolha -le 1 -o $escolha -ge 5 ]
+while [ $escolha -ge 1 ] && [ $escolha -le 5 ]
 do
 	echo -e "- Menu Principal -\n"
 
@@ -19,11 +19,11 @@ do
 	echo ""
 
 	case $escolha in
-		1) . criarGrupo.sh ;;
-		2) echo "2" ;;
+		1) ./criarGrupo.sh ;;
+		2) ./criarUsuario.sh ;;
 		3) echo "3" ;;
-		4) echo "4" ;;
-		5) echo "5" ;;
+		4) compgen -u ;;
+		5) compgen -g ;;
 		*) echo -e "Opção inválida, favor tente novamente!" ;;
 	esac
 

@@ -4,10 +4,10 @@ clear
 
 read -p "Informe o nome do novo grupo: " grupo
 
-sudo groupadd $grupo
+groupadd $grupo 2>  /dev/null
 
 if [ $? -eq 0 ] ; then
-	echo "Grupo criado com sucesso!"
+	echo -e "\nGrupo criado com sucesso!"
 else
-	echo "O grupo informado já existe."
+	echo -e "\nO grupo informado já existe."
 fi
