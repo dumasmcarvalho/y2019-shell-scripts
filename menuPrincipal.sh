@@ -10,7 +10,7 @@ do
 
 	echo " 1) Criar um novo grupo;"
 	echo " 2) Criar um novo usuário;"
-	echo " 3) Criar usuários em massa;"
+	echo " 3) Criar vários usuários;"
 	echo " 4) Listar usuários existentes;"
 	echo -e " 5) Listar grupos existentes.\n"
 
@@ -21,7 +21,7 @@ do
 	case $escolha in
 		1) ./criarGrupo.sh ;;
 		2) ./criarUsuario.sh ;;
-		3) echo "3" ;;
+		3) ./criarVariosUsuarios.sh ;;
 		4) compgen -u ;;
 		5) compgen -g ;;
 		*) echo -e "Opção inválida, favor tente novamente!" ;;
