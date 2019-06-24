@@ -2,9 +2,10 @@
 
 escolha=1
 
+clear
+
 while [ $escolha -ge 1 ] && [ $escolha -le 6 ]
 do
-
 	echo -e "- Menu Principal -\n"
 
 	echo " 0) Encerrar o script;"
