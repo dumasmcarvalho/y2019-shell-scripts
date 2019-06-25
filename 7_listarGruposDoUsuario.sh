@@ -2,7 +2,7 @@
 
 clear
 
-echo -e "- Listar Grupos do Usuário  -\n"
+echo -e "- Listar Grupos do Usuário -\n"
 
 read -p "Informe o nome de um usuário: " usuario
 
