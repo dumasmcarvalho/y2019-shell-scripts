@@ -2,6 +2,8 @@
 
 clear
 
+echo -e "- Criar um Novo Grupo -\n"
+
 read -p "Informe o nome do novo grupo: " grupo
 
 groupadd $grupo 2>  /dev/null

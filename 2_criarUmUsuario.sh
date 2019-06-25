@@ -2,6 +2,8 @@
 
 clear
 
+echo -e "- Criar um Novo Usuário -\n"
+
 senha="Senha;123"
 
 read -p "Informe o nome do novo usuário: " usuario

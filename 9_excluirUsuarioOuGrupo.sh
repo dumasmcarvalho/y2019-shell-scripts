@@ -2,7 +2,9 @@
 
 clear
 
-echo -e "Deseja remover um usuário ou um grupo?\n 1) Remover um usuário;\n 2) Remover um grupo.\n"
+echo -e "- Excluir Usuário ou Grupo -\n"
+
+echo -e "Deseja exluir um usuário ou um grupo?\n 1) Usuário;\n 2) Grupo.\n"
 
 read -p "Escolha uma das alternativas acima: " escolha
 

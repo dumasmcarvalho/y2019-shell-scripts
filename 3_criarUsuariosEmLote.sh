@@ -2,6 +2,8 @@
 
 clear
 
+echo -e "- Criar Novos Usuários em Lote -\n"
+
 senha="Senha;123"
 
 read -e -p "Informe o caminho e nome absoluto do arquivo que contém os usuários: " arquivoUsuarios
